@@ -9,7 +9,7 @@
          <children>
             <ToolBar layoutY="443.0" prefHeight="43.0" prefWidth="800.0">
               <items>
-                  <Button fx:id="Add_Task" mnemonicParsing="false" onAction="#onAdd_TaskButtonClick" text="Add Task" textAlignment="CENTER" />
+                  <Button fx:id="Add_Task" mnemonicParsing="false" text="Add Task" textAlignment="CENTER" />
                   <Button layoutX="79.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" text="Delete Task" textAlignment="CENTER" />
                   <Button mnemonicParsing="false" text="Edit Task" />
                   <SplitMenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="134.0" text="Show All">
@@ -40,7 +40,7 @@
               <columns>
                 <TableColumn prefWidth="75.0" text="Due Date" />
                   <TableColumn prefWidth="55.0" text="Status" />
-                  <TableColumn prefWidth="411.0" text="Description" />
+                  <TableColumn prefWidth="665.0" text="Description" />
               </columns>
             </TableView>
             <ComboBox layoutY="112.0" prefWidth="150.0" promptText="Current List" />
