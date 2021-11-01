@@ -8,8 +8,19 @@ public class task {
     public task(String description, String dueDate) {
         this.description = description;
         this.status = true;
-        this.dueDate = dueDate;
+        this.dueDate = formatDate(dueDate);
     }
+
+    private String formatDate(String unFormatted)
+    {
+        //Format the provided date to the desired format mm/dd/yyyy
+
+        //Return Formatted date
+        return null;
+    }
+
+
+    //*******Getters and Setters**********//
 
     public String getDescription() {
         return description;
@@ -34,7 +45,5 @@ public class task {
     public void setDueDate(String dueDate) {
         this.dueDate = dueDate;
     }
-
-
 
 }
